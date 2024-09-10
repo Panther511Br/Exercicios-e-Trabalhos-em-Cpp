@@ -38,7 +38,7 @@ int mmc(int a, int b){
 
 
 /*Recebe um vetor de inteiros "numeros" constante, e calcula o MMC de todos os elementos do vetor.
-Comeca com o primeiro elemento e aplica a funcao mdc inteirativamente para cada elemento subsequente.
+Comeca com o primeiro elemento e aplica a funcao mmc inteirativamente para cada elemento subsequente.
 */
 int mmc_vetor(const int numeros[], int tamanho){
     int resultado = numeros[0];
